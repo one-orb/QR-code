@@ -25,9 +25,9 @@ This is my first solo attempt at coding something without following a guided les
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-display-using-html-and-css-87Pmp3Xk09](https://www.frontendmentor.io/solutions/qr-code-display-using-html-and-css-87Pmp3Xk09)
+- Live Site URL: [https://qr-code-three-mocha.vercel.app/](https://qr-code-three-mocha.vercel.app/)
+  
 ## My process
 
 ### Built with
