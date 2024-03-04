@@ -15,89 +15,77 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 - [Author](#author) 
 - [Acknowledgments](#acknowledgments) 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.** 
+## Overview
 
-## Overview 
+This is my first solo attempt at coding something without following a guided lesson. I've completed Dave Gray's HTML course but barely started on the CSS course so that part of the project might be barely passable after a lot of googling. I can already see how the HTML side of the project will be laid out and it will be interesting to see how I manage on the CSS side, looking forward to figuring out how to get the rounded corners on each of the blocks.
 
-### Screenshot 
+### Screenshot
 
-![](./screenshot.jpg) 
+![Screenshot of my completed project](./images/screenshot.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it. 
+### Links
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above. 
+## My process
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.** 
+### Built with
 
-### Links 
+- Semantic HTML5 markup
+- CSS custom properties
+- Google font families
+- Pure grit
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com) 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) 
+### What I learned
 
-## My process 
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-### Built with 
+Figuring out how to add in the Google fonts, at least for this project, was a pretty big win. Not only did I just have to copy and paste the code below into index.html:
 
-- Semantic HTML5 markup 
-- CSS custom properties 
-- Flexbox 
-- CSS Grid 
-- Mobile-first workflow 
-- [React](https://reactjs.org/) - JS library 
-- [Next.js](https://nextjs.org/) - React framework 
-- [Styled Components](https://styled-components.com/) - For styles 
+```html
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?    family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+```
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices** 
+But I also figured out that rather than assigning it to a particular attribute, as Google suggested, I instead just made it the default for the whole page by adding it to the html selector, as seen below, saving myself quite a bit of extra code writing.
 
-### What I learned 
+```css
+html {
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif; 
+  font-style: normal;
+}
+```
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. 
+I also tried to follow Google's style guide for writing out HTML/CSS and it was very interesting reading about exactly how many tags you could potentially omit. And having the spaces/indents being just 2 spaces rather than 4 really does make it look quite a bit neater.
 
-To see how you can add code snippets, see below: 
+### Continued development
 
-```html 
-<h1>Some HTML code I'm proud of</h1> 
-``` 
-```css 
-.proud-of-this-css { 
-color: papayawhip; 
-} 
-``` 
-```js 
-const proudOfThisFunc = () => { 
-console.log('ðŸŽ‰') 
-} 
-``` 
+I'm honestly still not sure how I got some of the elements to align. 
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more. 
+```css
+figure {
+  width: 300px; border-radius: 10px;
+  margin: auto; padding: 0px 0px 20px;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 100%);
+}
+```
+I'm not entirely sure why I had to add in a border the same colour as the background in order to get the QR code to move down in the figure box. I'll have to work through Dave's course and get a bit more familiar with CSS to figure out why.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.** 
+Quite happy with how I managed on the HTML side, I just need to figure our more of the CSS side as no doubt I have gone around quite a convoluted way to get there. 
 
-### Continued development 
+### Useful resources
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. 
+- [MDN CSS Reference Sheet](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) - As the HTML equivalent had been very handy before, I spent a lot of time on this sheet trying to find the right properties to use in CSS.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.** 
+## Author
 
-### Useful resources 
+- Website - [Andrew Ball](https://github.com/one-orb/)
+- Frontend Mentor - [@one-orb](https://www.frontendmentor.io/profile/one-orb)
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward. 
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. 
+## Acknowledgments
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.** 
-
-## Author 
-
-- Website - [Add your name here](https://www.your-site.com) 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername) 
-- Twitter - [@yourusername](https://www.twitter.com/yourusername) 
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.** 
-
-## Acknowledgments 
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit. 
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.** 
+The Internet
