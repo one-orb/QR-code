@@ -67,10 +67,10 @@ I'm honestly still not sure how I got some of the elements to align.
 
 ```css
 figure {
-  width: 300px; border-radius: 10px;
-  margin: auto; padding: 0px 0px 20px;
   background-color: hsl(0, 0%, 100%);
   border: 1px solid hsl(0, 0%, 100%);
+  margin: auto; padding: 0px 0px 20px;
+  width: 300px; border-radius: 10px;
 }
 ```
 I'm not entirely sure why I had to add in a border the same colour as the background in order to get the QR code to move down in the figure box. I'll have to work through Dave's course and get a bit more familiar with CSS to figure out why.
