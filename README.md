@@ -19,7 +19,8 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 This is my first solo attempt at coding something without following a guided lesson. I've completed Dave Gray's HTML course but barely started on the CSS course so that part of the project might be barely passable after a lot of googling. I can already see how the HTML side of the project will be laid out and it will be interesting to see how I manage on the CSS side, looking forward to figuring out how to get the rounded corners on each of the blocks.
 
-### Screenshot
+### Screenshot 
+** Need to update screenshot **
 
 ![Screenshot of my completed project](./images/screenshot.png)
 
