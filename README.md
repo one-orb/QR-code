@@ -44,7 +44,7 @@ Use this section to recap over some of your major learnings while working throug
 
 Figuring out how to add in the Google fonts, at least for this project, was a pretty big win. Not only did I just have to copy and paste the code below into index.html:
 
-```html
+```html example-bad
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?    family=Outfit:wght@100..900&display=swap" rel="stylesheet">
@@ -52,7 +52,7 @@ Figuring out how to add in the Google fonts, at least for this project, was a pr
 
 But I also figured out that rather than assigning it to a particular attribute, as Google suggested, I instead just made it the default for the whole page by adding it to the html selector, as seen below, saving myself quite a bit of extra code writing.
 
-```css
+```css example-bad
 html {
   background-color: hsl(212, 45%, 89%);
   font-family: 'Outfit', sans-serif; 
